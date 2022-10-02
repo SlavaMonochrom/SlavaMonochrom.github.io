@@ -11,6 +11,7 @@
 				}
 			.style-Head {
 				color:blueviolet;
+				font-weight: bold;
 				text-align: center;
 				font-family: "Roboto Thin";
 			}
@@ -23,14 +24,6 @@
 	</head>
 	<body>
 		<h1 class="style-Head"> Мой воображаемый влог о фото </h1>
-			<script language="JavaScript">
-
-				function name(a) {
-					alert (`Здравствуй `+ a);
-				}
-				let a = prompt("Введите ваше имя");
-				name(a);
-			</script>
 			<img src="https://getprimonews.com/wp-content/uploads/2021/01/30-306983_camera-clipart-photo-journalist-pencil-color-s-photography-150x150.png" alt="Тут фото фотоаппарата">
 			<p><strong> Мой спаситель </strong></p>
 		
@@ -60,6 +53,13 @@
 				<img src="https://avatars.mds.yandex.net/i?id=e7387a8071ff775514bae51908113fbd_sr-5658205-images-thumbs&n=13&exp=1" >
 			<p class="style-P"> Бывали и там </p>
 				<img src="https://0.academia-photos.com/19394695/5396341/24250303/s200_snow.tiger.jpg">
+		<script language="JavaScript">
+			let name = prompt("Введите ваше имя");
+			username();
+			function username(){
+				let whatsup = "Здравсвуй, ";
+				alert(whatsup + name);
+			}
+		</script>
 	</body>
 </html>
-
