@@ -55,7 +55,9 @@
 				<img src="https://0.academia-photos.com/19394695/5396341/24250303/s200_snow.tiger.jpg">
 		<script language="JavaScript">
 			let name = prompt("Введите ваше имя");
-			username();
+			let Header = document.querySelector("h1")
+			Header.textContent = " Добро пожаловать на сайт, " + name +"!";
+					username();
 			function username(){
 				let whatsup = "Здравсвуй, ";
 				alert(whatsup + name);
